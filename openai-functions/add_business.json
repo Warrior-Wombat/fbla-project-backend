@@ -1,0 +1,103 @@
+{
+    "name": "add_business",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "business_data": {
+          "type": "object",
+          "description": "An object containing all the necessary business data",
+          "properties": {
+            "business_name": {
+              "type": "string",
+              "description": "The name of the business"
+            },
+            "organization_type": {
+              "type": "string",
+              "description": "The type of organization"
+            },
+            "resources_available": {
+              "type": "string",
+              "description": "Description of resources available"
+            },
+            "has_available_resources": {
+              "type": "boolean",
+              "description": "Whether the business has available resources"
+            },
+            "contact_info": {
+              "type": "string",
+              "description": "Contact information for the business"
+            },
+            "yearly_revenue": {
+              "type": "integer",
+              "description": "The yearly revenue of the business"
+            },
+            "employee_count": {
+              "type": "integer",
+              "description": "The number of employees in the business"
+            },
+            "customer_satisfaction": {
+              "type": "number",
+              "description": "Customer satisfaction score"
+            },
+            "website_traffic": {
+              "type": "integer",
+              "description": "The amount of traffic to the business's website"
+            },
+            "address": {
+              "type": "object",
+              "description": "The business's address",
+              "properties": {
+                "line1": {
+                  "type": "string",
+                  "description": "Address line 1"
+                },
+                "line2": {
+                  "type": "string",
+                  "description": "Address line 2, if applicable"
+                },
+                "city": {
+                  "type": "string",
+                  "description": "City"
+                },
+                "state": {
+                  "type": "string",
+                  "description": "State"
+                },
+                "zipcode": {
+                  "type": "string",
+                  "description": "ZIP Code"
+                },
+                "country": {
+                  "type": "string",
+                  "description": "Country"
+                }
+              },
+              "required": [
+                "line1",
+                "city",
+                "state",
+                "zipcode",
+                "country"
+              ]
+            }
+          },
+          "required": [
+            "business_name",
+            "organization_type",
+            "resources_available",
+            "has_available_resources",
+            "contact_info",
+            "yearly_revenue",
+            "employee_count",
+            "customer_satisfaction",
+            "website_traffic",
+            "address"
+          ]
+        }
+      },
+      "required": [
+        "business_data"
+      ]
+    },
+    "description": "Prepares data for an external API call to add a new business to the database"
+  }

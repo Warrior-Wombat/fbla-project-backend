@@ -1,0 +1,21 @@
+{
+    "name": "send_email",
+    "description": "Formats an email to report an issue encountered with the application, including the user's username.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string",
+          "description": "The user's username, which they provide themselves."
+        },
+        "issue_description": {
+          "type": "string",
+          "description": "A detailed description of the issue encountered. Please include the username value inside of the issue description."
+        }
+      },
+      "required": [
+        "username",
+        "issue_description"
+      ]
+    }
+  }
