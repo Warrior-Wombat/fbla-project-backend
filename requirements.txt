@@ -1,5 +1,5 @@
 absl-py==2.0.0
-aiohttp==3.8.5
+aiohttp==3.9.4
 aiosignal==1.3.1
 annotated-types==0.6.0
 anyascii==0.3.2
@@ -36,7 +36,7 @@ dateparser==1.1.8
 decorator==5.1.1
 Deprecated==1.2.14
 distro==1.8.0
-dnspython==2.4.2
+dnspython==2.6.1
 docopt==0.6.2
 einops==0.7.0
 encodec==0.1.1
@@ -50,7 +50,7 @@ Flask-OAuthlib==0.9.6
 Flask-PyMongo==2.3.0
 Flask-Session==0.5.0
 Flask-SocketIO==5.3.6
-fonttools==4.42.1
+fonttools==4.43.0
 frozenlist==1.4.0
 fsspec==2023.12.2
 future==0.18.3
@@ -73,13 +73,13 @@ huggingface-hub==0.20.1
 ibm-cos-sdk==2.13.3
 ibm-cos-sdk-core==2.13.3
 ibm-cos-sdk-s3transfer==2.13.3
-idna==3.4
+idna==3.7
 importlib-resources==6.1.1
 inflect==7.0.0
 itsdangerous==2.1.2
 jamo==0.4.1
 jieba==0.42.1
-Jinja2==3.1.2
+Jinja2==3.1.3
 jmespath==1.0.1
 joblib==1.3.2
 jsonlines==1.2.0
@@ -109,7 +109,7 @@ openai==1.6.0
 ordered-set==4.1.0
 packaging==23.1
 pandas==1.5.3
-Pillow==10.0.1
+Pillow==10.3.0
 platformdirs==4.1.0
 pooch==1.8.0
 preshed==3.0.9
@@ -123,7 +123,7 @@ pydantic_core==2.14.5
 pydyf==0.8.0
 Pygments==2.17.1
 PyJWT==2.8.0
-pymongo==4.5.0
+pymongo==4.6.3
 pynndescent==0.5.11
 pyparsing==3.1.1
 pyphen==0.14.0
@@ -170,9 +170,9 @@ token-bucket==0.3.0
 tokenizers==0.15.0
 torch==2.1.2
 torchaudio==2.1.2
-tqdm==4.66.1
+tqdm==4.66.3
 trainer==0.0.36
-transformers==4.36.2
+transformers==4.38.0
 typer==0.9.0
 typing_extensions==4.8.0
 tzdata==2023.3
@@ -183,7 +183,7 @@ urllib3==1.26.18
 wasabi==1.1.2
 weasel==0.3.4
 webencodings==0.5.1
-Werkzeug==2.3.7
+Werkzeug==2.3.8
 wrapt==1.16.0
 wsproto==1.2.0
 yarl==1.9.2
